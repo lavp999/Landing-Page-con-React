@@ -13,3 +13,7 @@
 .menuDerecha{
     float: right;
 }
+
+.card{
+    width: 18rem;
+}
