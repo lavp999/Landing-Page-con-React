@@ -20,20 +20,16 @@
 
 .jumbotron{
     background-color: rgb(211, 228, 243);
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 5px;
     border-radius: 5px;
-}
-
-.fondoJB{
-    margin: 5px;
-
 }
 
 .ancho {
     width: 100%;
 }
 
-.card{
-    width: 18rem;
+.boton{
+    margin: 10px;
+    align-items: center;
 }

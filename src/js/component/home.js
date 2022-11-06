@@ -8,10 +8,12 @@ import Card from "./card.js";
 const Home = () => {
 	return (
 		<>
-			<NavBar />
-			<div className="container p-1 fondoJB">
+			<div className="bg-dark">
+				<NavBar />
+			</div>
+			<div className="container align-items-center">
 				<Jumbotron />
-				<div className="card-deck">
+				<div className="card-deck d-flex">
 					<Card />
 					<Card />
 					<Card />
