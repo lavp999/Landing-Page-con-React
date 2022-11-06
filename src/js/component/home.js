@@ -13,7 +13,7 @@ const Home = () => {
 			</div>
 			<div className="container align-items-center">
 				<Jumbotron />
-				<div className="card-deck d-flex borde1 row justify-content-center">
+				<div className="card-deck d-flex row justify-content-between">
 					<Card />
 					<Card />
 					<Card />
