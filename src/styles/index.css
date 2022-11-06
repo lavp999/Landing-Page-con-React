@@ -25,6 +25,13 @@
     border-radius: 5px;
 }
 
+.card {
+    border: 1px solid rgb(149, 150, 151);
+    border-radius: 15px;
+    margin: 5px;
+    width: 14rem;
+}
+
 .ancho {
     width: 100%;
 }
