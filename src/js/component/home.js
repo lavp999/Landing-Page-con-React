@@ -9,11 +9,15 @@ const Home = () => {
 	return (
 		<>
 			<NavBar />
-			<Jumbotron />
-			<Card />
-			<Card />
-			<Card />
-			<Card />
+			<div className="container p-1 fondoJB">
+				<Jumbotron />
+				<div className="card-deck">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
+			</div>
 		</>
 	);
 };

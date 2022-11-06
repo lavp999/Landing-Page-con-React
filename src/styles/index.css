@@ -10,8 +10,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.menuDerecha{
-    float: right;
+.borde {
+    border: 1px solid red;
+}
+
+.borde1 {
+    border: 1px solid rgb(23, 190, 37);
+}
+
+.jumbotron{
+    background-color: rgb(211, 228, 243);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.fondoJB{
+    margin: 5px;
+
+}
+
+.ancho {
+    width: 100%;
 }
 
 .card{
