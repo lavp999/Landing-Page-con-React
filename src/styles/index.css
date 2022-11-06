@@ -28,8 +28,8 @@
 .card {
     border: 1px solid rgb(149, 150, 151);
     border-radius: 15px;
-    margin: 5px;
-    width: 14rem;
+    margin: 10px;
+    width: 325px; /*20%;*/
 }
 
 .ancho {
