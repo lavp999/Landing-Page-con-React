@@ -2,6 +2,8 @@ import React from "react";
 /**
  * 
             <div className="d-flex align-items-end flex-column p-2 collapse navbar-collapse" id="navbarSupportedContent">
+            <div className="                                   p-2 collapse navbar-collapse" id="navbarSupportedContent">
+
 
  */
 //create your first component
@@ -14,8 +16,9 @@ const NavBar = () => {
                 <span className="navbar-toggler-icon"></span>
             </button>
 
+<div className="justify-content-end w-100 borde">
             <div className="p-2 collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav ml-auto">
+                <ul className="nav justify-content-end">
                     <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -30,6 +33,8 @@ const NavBar = () => {
                     </li>
                 </ul>
             </div>
+</div>
+
         </nav>
       </>
 	);
