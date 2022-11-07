@@ -11,7 +11,8 @@ import React from "react";
 */
 const Card = () => {
 	return (
-        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 card">
+        <div className="col">
+            <div className="card mx-2">
             <img className="card-img-top" src="https://react-hello-webapp-iota.vercel.app/rigo-baby.jpg" alt="sss" />
             <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -21,6 +22,8 @@ const Card = () => {
                 <a href="#" className="btn btn-primary btn-lg">Go somewhere</a>
             </div>
         </div>
+        </div>
+        
 	);
 };
 
